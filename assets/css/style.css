@@ -1,0 +1,60 @@
+body {
+    background-image: url("../images/background.jpg");
+    margin: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h1 {
+    background: orange;
+    display: inline-block;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.instructions {
+    background: peachpuff;
+    font-size: 20px;
+    width: 50%;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.instructions p {
+    margin: 20px 10px;
+}
+
+#random-num {
+    background: pink;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 40px;
+}
+
+.score-count {
+    background: pink;
+    display: inline-block;
+    padding: 17px 40px;
+    font-size: 20px;
+}
+
+.gem {
+    cursor: pointer;
+    float: left;
+    margin: 10px 5px 0px;
+}
+
+.gem-score {
+    padding: 10px;
+    background: lightblue;
+    width: 200px;
+}
+
+#total-score {
+    margin-top: 10px;
+    font-size: 35px;
+}
