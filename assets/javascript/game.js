@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     $(".gem").click(function() {
         // testing on sapphire
-        gem = $(this).val();
+        gem = $(".gem").val();
         console.log(gem);
         if (gem === 'sapphire') {
             console.log(sapphire);
@@ -38,4 +38,3 @@ $(document).ready(function() {
     })
 
 });
-// 1-12 gems
